@@ -8,11 +8,11 @@ int main()
 
     if (status == 0)
     {
-        std::cout << "Terminal opened with shortcut" << std::endl;
+        std::cout << "Terminal opened successfully." << std::endl;
     }
     else
     {
-        std::cerr << "Failed to open terminal with shortcut" << std::endl;
+        std::cerr << "Failed to open Terminal." << std::endl;
     }
 
     return 0;
